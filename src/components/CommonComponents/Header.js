@@ -1,10 +1,41 @@
 import React from "react";
 import Link from "next/link";
-
+import styles from './css/Header.module.css';
 
 export default function Header(props) {
+
+
+
+
   return (
     <header class="clearHeader">
+
+      <style>
+        {
+          `
+          .nav-item {
+            display: flex;
+            align-items: center;
+          }
+
+
+          .nav-item a {
+            display:block;
+            margin: 0px;
+            font-weight: 400;
+            color: #787780;
+            padding: 30px 15px;
+            font-size: 16px;
+            -webkit-transition: 0.3s all ease-in-out;
+            transition: 0.3s all ease-in-out;
+          }
+
+          .nav-item .quote {
+            margin: 0px;
+          }
+          `
+        }
+      </style>
       <div class="top-sec">
         <div class="container">
           <div class="row">
@@ -57,14 +88,14 @@ export default function Header(props) {
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                  <a className="nav-link" href="/">
+                  <Link className={`${styles.navlink} nav-link`} href="/">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/company">
+                  <Link className={`${styles.navlink} nav-link`} href="/company" >
                     Company
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/services">
@@ -103,9 +134,9 @@ export default function Header(props) {
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="/gallery">
+                  <Link className={`${styles.navlink} nav-link`} href="/gallery" >
                     Gallery
-                  </a>
+                  </Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="/careers">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import BannerArea from "./BannerArea";
 import ServiceSection from "./ServiceSection";
