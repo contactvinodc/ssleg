@@ -44,7 +44,7 @@ export default function Footer(props) {
               <div className="footer-widget">
                 <h3>Our Address</h3>
                 <ul className="f-address">
-                  <li>No. 1735, 'Darshana', PRASHANTH 
+                  <li>No. 1735, Darshana, PRASHANTH 
                                         NAGAR, T DASARAHALLI, 
                                         BANGALORE - 560057</li>
                   <li className="call">
