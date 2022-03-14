@@ -59,8 +59,7 @@ export default function WebApp(props) {
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 
-{
-    /*
+
       <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
       <script src="/js/swiper.min.js"></script>
       <script src="/js/aos.js"></script>
@@ -69,9 +68,7 @@ export default function WebApp(props) {
       <script src="/js/jquery.fancybox.min.js"></script>
       <script src="/js/home.js"></script>
       <script src="/js/custom.js"></script>
-      */
-
-}
+ 
     </div>
   );
 }
