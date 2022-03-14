@@ -2,18 +2,18 @@ import React from "react";
 
 export default function Milestone(props) {
   return (
-    <section class="milestone">
-      <div class="container">
+    <section className="milestone">
+      <div className="container">
         <h5>CC</h5>
         <h6>MILESTONES</h6>
-        <div class="row">
+        <div className="row">
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">01</div>
+            <div className="mile-sec">
+              <div className="count">01</div>
               <p>
                 Starting its base as K S Engineering Company registered in
                 1990as a proprietary concern with 20 manpower servicing simple
@@ -25,12 +25,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">02</div>
+            <div className="mile-sec">
+              <div className="count">02</div>
               <p>
                 Next stage of our development was movement out of Renukoot.
                 “Hindustan Dorr Oliver” was the major client with whom we moved
@@ -40,12 +40,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">03</div>
+            <div className="mile-sec">
+              <div className="count">03</div>
               <p>
                 Third stage of development evolved with directly serving the
                 parent company. With the satisfaction of the services provided
@@ -58,12 +58,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">04</div>
+            <div className="mile-sec">
+              <div className="count">04</div>
               <p>
                 Forth stage of development was being awarded by operation and
                 maintenance (O&M) job at Vedanta Aluminium for red mud filter at
@@ -73,12 +73,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">05</div>
+            <div className="mile-sec">
+              <div className="count">05</div>
               <p>
                 In next phase of our growth we carried instrumentation project
                 at Gujarat Credo Alumina Chemicals PVT. LTD. involving erection,
@@ -88,12 +88,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">06</div>
+            <div className="mile-sec">
+              <div className="count">06</div>
               <p>
                 Next gem embedded in our profile was being awarded with a LSTK
                 package which included civil mechanical, instrumentation and
@@ -102,12 +102,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">07</div>
+            <div className="mile-sec">
+              <div className="count">07</div>
               <p>
                 We have secured classification of “A grade” in vendor list of
                 Vedanta Lanjigarh. Also achieved appreciation as cash price for
@@ -116,12 +116,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">08</div>
+            <div className="mile-sec">
+              <div className="count">08</div>
               <p>We have been certified with below certificates:-</p>
               <ul>
                 <li>ISO 9001:2015 for quality management system.</li>
@@ -134,12 +134,12 @@ export default function Milestone(props) {
             </div>
           </div>
           <div
-            class="col-lg-4 col-md-6"
+            className="col-lg-4 col-md-6"
             data-aos="fade-up"
             data-aos-duration="1000"
           >
-            <div class="mile-sec">
-              <div class="count">09</div>
+            <div className="mile-sec">
+              <div className="count">09</div>
               <p>
                 We have gained certification of Class – I Boiler / Repairer /
                 Erector and Steam / Feed Pipe Line Fabricator / Erector of

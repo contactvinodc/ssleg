@@ -1,61 +1,61 @@
 import React from "react";
-
+import Image from "next/image";
 export default function PartnerCompanies(props) {
   return (
-    <section class="partner-companies">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
+    <section className="partner-companies">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
             <h6>Partner Companies</h6>
-            <div class="partners1 owl-theme">
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+            <div className="partners1 owl-theme">
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div class="item">
-                <div class="partner-sec">
-                  <img src="images/partner-1.jpg" alt="" />
+              <div className="item">
+                <div className="partner-sec">
+                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
             </div>

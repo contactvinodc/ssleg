@@ -49,10 +49,10 @@ export default function BannerArea(props) {
   };
 
   return (
-    <section class="banner-section">
-      <section class="main-slider">
+    <section className="banner-section">
+      <section className="main-slider">
         <div
-          class="swiper-container thm-swiper__slider"
+          className="swiper-container thm-swiper__slider"
           data-swiper-options='{"slidesPerView": 1, "loop": true,
 "effect": "fade",
 "pagination": {
@@ -69,19 +69,19 @@ export default function BannerArea(props) {
     "delay": 5000
 }}'
         >
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
+          <div className="swiper-wrapper">
+            <div className="swiper-slide">
               <div
-                class="image-layer"
+                className="image-layer"
                 style={{
                   backgroundImage: `url(/images/main-slider-0-1.jpg)`,
                 }}
               ></div>
-              <div class="image-layer-overlay"></div>
-              <div class="container">
-                <div class="swiper-slide-inner">
-                  <div class="row">
-                    <div class="col-xl-12">
+              <div className="image-layer-overlay"></div>
+              <div className="container">
+                <div className="swiper-slide-inner">
+                  <div className="row">
+                    <div className="col-xl-12">
                       <h2>
                         We are <span>Always</span>
                         <br />
@@ -95,18 +95,18 @@ export default function BannerArea(props) {
                 </div>
               </div>
             </div>
-            <div class="swiper-slide">
+            <div className="swiper-slide">
               <div
-                class="image-layer"
+                className="image-layer"
                 style={{
                   backgroundImage: `url(/images/main-slider-1-1.jpg)`,
                 }}
               ></div>
-              <div class="image-layer-overlay"></div>
-              <div class="container">
-                <div class="swiper-slide-inner">
-                  <div class="row">
-                    <div class="col-xl-12">
+              <div className="image-layer-overlay"></div>
+              <div className="container">
+                <div className="swiper-slide-inner">
+                  <div className="row">
+                    <div className="col-xl-12">
                       <h2>
                         We are <span>Always</span>
                         <br />
@@ -122,12 +122,12 @@ export default function BannerArea(props) {
             </div>
           </div>
 
-          <div class="main-slider-nav">
-            <div class="main-slider-button-prev">
-              <span class="icon-right-arrow"></span>
+          <div className="main-slider-nav">
+            <div className="main-slider-button-prev">
+              <span className="icon-right-arrow"></span>
             </div>
-            <div class="main-slider-button-next">
-              <span class="icon-right-arrow"></span>{" "}
+            <div className="main-slider-button-next">
+              <span className="icon-right-arrow"></span>{" "}
             </div>
           </div>
         </div>

@@ -1,27 +1,27 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Footer(props) {
   return (
     <footer>
-      <div class="vector-bg"></div>
-      <div class="main-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3">
-              <div class="footer-widget">
-                <div class="f-logo">
+      <div className="vector-bg"></div>
+      <div className="main-footer">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-3">
+              <div className="footer-widget">
+                <div className="f-logo">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
+                    typesetting industry. Lorem Ipsum has been the industry&apos;s
                     standard dummy
                   </p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="footer-widget left65">
+            <div className="col-lg-3">
+              <div className="footer-widget left65">
                 <h3>Explore</h3>
-                <ul class="footer-menu">
+                <ul className="footer-menu">
                   <li>
                     <a href="index.html">Home</a>
                   </li>
@@ -43,12 +43,12 @@ export default function Footer(props) {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="footer-widget">
+            <div className="col-lg-3">
+              <div className="footer-widget">
                 <h3>Our Address</h3>
-                <ul class="f-address">
+                <ul className="f-address">
                   <li>No. 9845, Atulya, Victory Nagar, Banglore - 562275</li>
-                  <li class="call">
+                  <li className="call">
                     <a href="tel:9224-386238">9224-386238</a>
                   </li>
                   <li>
@@ -57,37 +57,37 @@ export default function Footer(props) {
                 </ul>
               </div>
             </div>
-            <div class="col-lg-3">
-              <div class="footer-widget">
+            <div className="col-lg-3">
+              <div className="footer-widget">
                 <h3>Follow Us</h3>
-                <div class="f-icons">
+                <div className="f-icons">
                   <a href="" target="_blank">
-                    <i class="fa fa-facebook"></i>
+                    <i className="fa fa-facebook"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fa fa-linkedin"></i>
+                    <i className="fa fa-linkedin"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fa fa-instagram"></i>
+                    <i className="fa fa-instagram"></i>
                   </a>
                   <a href="" target="_blank">
-                    <i class="fa fa-twitter"></i>
+                    <i className="fa fa-twitter"></i>
                   </a>
                 </div>
-                <div class="partners">
+                <div className="partners">
                   <h4>Banking Partners</h4>
                   <ul>
                     <li>
-                      <img src="images/uco-Bank.svg" />
+                      <Image src="/images/uco-Bank.svg" width="116" height="30px"/>
                     </li>
                     <li>
-                      <img src="images/federal-bank.svg" />
+                      <Image src="/images/federal-bank.svg" width="116" height="30px"/>
                     </li>
                     <li>
-                      <img src="images/sbi-Bank.svg" />
+                      <Image src="/images/sbi-Bank.svg" width="116" height="30px"/>
                     </li>
                     <li>
-                      <img src="images/icici-bank.svg" />
+                      <Image src="/images/icici-bank.svg" width="116" height="30px"/>
                     </li>
                   </ul>
                 </div>
@@ -96,10 +96,10 @@ export default function Footer(props) {
           </div>
         </div>
       </div>
-      <div class="copyright">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12 copyright-txt">
+      <div className="copyright">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-12 copyright-txt">
               <p>© 2022 CC. All rights reserved.</p>
             </div>
           </div>

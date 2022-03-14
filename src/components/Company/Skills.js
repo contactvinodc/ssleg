@@ -2,12 +2,12 @@ import React from "react";
 
 export default function Skills(props) {
   return (
-    <section class="skills-sec">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-7">
-            <div class="skill-txt">
-              <div class="about-head">
+    <section className="skills-sec">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-7">
+            <div className="skill-txt">
+              <div className="about-head">
                 <h1>OUR SKILLS</h1>
                 <h2 style={{textTransform: 'uppercase'}}>
                   The efficiency of our company
@@ -18,39 +18,39 @@ export default function Skills(props) {
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
               <div
-                class="skill-progress"
+                className="skill-progress"
                 data-aos="fade-up"
                 data-aos-duration="1000"
               >
                 <label>Company machinery</label>
-                <div class="progress">
-                  <div class="progress-bar" style={{width: '95%'}}>
+                <div className="progress">
+                  <div className="progress-bar" style={{width: '95%'}}>
                     95%
                   </div>
                 </div>
                 <label>Qualified engineer</label>
-                <div class="progress">
-                  <div class="progress-bar" style={{width: '90%'}}>
+                <div className="progress">
+                  <div className="progress-bar" style={{width: '90%'}}>
                     90%
                   </div>
                 </div>
                 <label>Client satisfaction</label>
-                <div class="progress">
-                  <div class="progress-bar" style={{width: '100%'}}>
+                <div className="progress">
+                  <div className="progress-bar" style={{width: '100%'}}>
                     100%
                   </div>
                 </div>
                 <label>Construction design</label>
-                <div class="progress">
-                  <div class="progress-bar" style={{width:'95%'}}>
+                <div className="progress">
+                  <div className="progress-bar" style={{width:'95%'}}>
                     95%
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-5">
-            <div class="skill-img">
+          <div className="col-lg-5">
+            <div className="skill-img">
               <img src="images/skill.jpg" alt="" />
             </div>
           </div>

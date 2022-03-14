@@ -5,10 +5,10 @@ import React from "react";
 export default function BannerArea(props) {
   return (
     <section
-      class="inner-banner"
+      className="inner-banner"
       style={{backgroundImage: `url(/images/about-banner.png)`}}
     >
-      <div class="container">
+      <div className="container">
         <h1 data-aos="fade-up" data-aos-duration="800">
           Gallery
         </h1>

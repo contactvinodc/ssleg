@@ -3,9 +3,9 @@ import React from "react";
 
 export default function FacilitiesSection(props) {
   return (
-    <section class="facilities-sec">
-      <div class="facilities-left">
-        <div class="f-head" data-aos="fade-up" data-aos-duration="800">
+    <section className="facilities-sec">
+      <div className="facilities-left">
+        <div className="f-head" data-aos="fade-up" data-aos-duration="800">
           <h1>WORKING WITH EXCELLENT</h1>
           <h2>OUR FACILITIES</h2>
         </div>
@@ -19,7 +19,7 @@ export default function FacilitiesSection(props) {
           makes even the most difficult of tasks, a cakewalk.
         </p>
       </div>
-      <div class="right-img"></div>
+      <div className="right-img"></div>
     </section>
   );
 }

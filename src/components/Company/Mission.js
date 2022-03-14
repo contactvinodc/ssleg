@@ -1,24 +1,24 @@
 import React from "react";
-
+import Image from "next/image";
 export default function Mission(props) {
   return (
-    <section class="mission-sec">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6">
-            <div class="mission-sec-img">
-              <img src="images/mission.jpg" alt="" />
+    <section className="mission-sec">
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-6 col-md-6">
+            <div className="mission-sec-img">
+              <img src="/images/mission.jpg" alt=""/>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6">
-            <div class="vision-sec" data-aos="fade-up" data-aos-duration="1000">
-              <div class="box-sec">
+          <div className="col-lg-6 col-md-6">
+            <div className="vision-sec" data-aos="fade-up" data-aos-duration="1000">
+              <div className="box-sec">
                 <ul>
                   <li>
-                    <div class="box-icon">
-                      <img src="images/mission-img.svg" alt="" />
+                    <div className="box-icon">
+                      <Image src="/images/mission-img.svg" alt="" height="90" width="90"/>
                     </div>
-                    <div class="box-text">
+                    <div className="box-text">
                       <h4>Mission</h4>
                       <p>
                         To become the most respected industrial support service
@@ -28,10 +28,10 @@ export default function Mission(props) {
                     </div>
                   </li>
                   <li>
-                    <div class="box-icon">
-                      <img src="images/vision-img.svg" alt="" />
+                    <div className="box-icon">
+                      <Image src="/images/vision-img.svg" alt="" height="90" width="90"/>
                     </div>
-                    <div class="box-text">
+                    <div className="box-text">
                       <h4>Vision</h4>
                       <p>
                         To continue serving customers to the very best of our
