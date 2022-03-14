@@ -47,6 +47,8 @@ export default function WebApp(props) {
   return (
     <div>
       <Header></Header>
+
+
       {props.children}
       <Footer></Footer>
     </div>
