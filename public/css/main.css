@@ -578,7 +578,6 @@ footer .copyright .copyright-txt p {
   transition: -webkit-transform 7000ms ease;
   transition: transform 7000ms ease;
   transition: transform 7000ms ease, -webkit-transform 7000ms ease;
-  z-index: -1;
 }
 
 .main-slider .image-layer-overlay {

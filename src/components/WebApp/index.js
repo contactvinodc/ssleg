@@ -13,9 +13,6 @@ export default function WebApp(props) {
     script4.src = "/js/aos.js";
     script4.async = true;
 
-    const script5 = document.createElement("script");
-    script5.src = "/js/banner.js";
-    script5.async = true;
 
     const script6 = document.createElement("script");
     script6.src = "/js/owl.carousel.min.js";
@@ -39,7 +36,6 @@ export default function WebApp(props) {
 
     document.body.appendChild(script3);
     document.body.appendChild(script4);
-    document.body.appendChild(script5);
     document.body.appendChild(script6);
     document.body.appendChild(script7);
 
@@ -60,11 +56,10 @@ export default function WebApp(props) {
 
 
 
-      <script type="text/javascript" src="/js/owl.carousel.min.js"></script>
+      <script src="/js/owl.carousel.min.js"></script>
       <script src="/js/swiper.min.js"></script>
       <script src="/js/aos.js"></script>
-      <script type="text/javascript" src="/js/banner.js"></script>
-      <script type="text/javascript" src="/js/nav.js"></script>
+      <script src="/js/nav.js"></script>
       <script src="/js/jquery.fancybox.min.js"></script>
       <script src="/js/home.js"></script>
       <script src="/js/custom.js"></script>

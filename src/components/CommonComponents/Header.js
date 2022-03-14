@@ -31,7 +31,7 @@ export default function Header(props) {
           }
 
           .nav-item .quote {
-            margin: 0px;
+            margin: 0px !important;
           }
           `
         }
