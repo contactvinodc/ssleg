@@ -79,7 +79,7 @@ export default function Header(props) {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark">
             <Link className="navbar-brand" href="/">
-              <Image src="/images/logo.jpg" alt="Funtravelz" width="147.5" height="41.5"/>
+              <Image src="/images/logo.svg" alt="Funtravelz" width="147.5" height="41.5"/>
             </Link>
             <button
               className="navbar-toggler"
