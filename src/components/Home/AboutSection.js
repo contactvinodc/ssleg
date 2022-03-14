@@ -19,10 +19,10 @@ export default function AboutSection (props) {
                     </div>
                     <div className="col-lg-8" data-aos="fade-up" data-aos-duration="800">
                         <div className="about-head">
-                            <h1>ABOUT CC</h1>
+                            <h1>ABOUT SS Legacy</h1>
                             <h2>We Build for Your Comfort</h2>
                         </div>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&apos;s standard dummy</p>
+                        <p>SS LEGACY ENGINEERS PRIVATE LIMITED is an upgraded formation of K. S. Engineering Company, with ISO 9001:2015 & ISO 45001:2018 certification. KS Engineering has grown in past three decades from a humble beginning as labour contractor at HIL into a medium sized pvt ltd company specializing in fabrication & erection of piping and chemical plants, maintenance & operation facilitators in large plants. It started it base from simple fabrication and erection works at Renukoot to entire plant operation and maintenance in Lanjigarh. The turnover of the company increased to approx. 34 crore annually without much bank borrowings.</p>
                         <a href=""><span>More About</span></a>
                     </div>
                 </div>

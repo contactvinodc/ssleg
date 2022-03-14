@@ -9,12 +9,9 @@ export default function Footer(props) {
           <div className="row">
             <div className="col-lg-3">
               <div className="footer-widget">
-                <div className="f-logo">
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry&apos;s
-                    standard dummy
-                  </p>
+              <div className="f-logo">
+                <Image src="/images/f-logo.svg" width='161px' height='37px' alt="ss legacy" />
+                <p>SS LEGACY ENGINEERS PRIVATE LIMITED is an upgraded formation of K. S. Engineering Company, with ISO 9001:2015 & ISO 45001:2018 certification.</p>               
                 </div>
               </div>
             </div>
@@ -47,12 +44,14 @@ export default function Footer(props) {
               <div className="footer-widget">
                 <h3>Our Address</h3>
                 <ul className="f-address">
-                  <li>No. 9845, Atulya, Victory Nagar, Banglore - 562275</li>
+                  <li>No. 1735, 'Darshana', PRASHANTH 
+                                        NAGAR, T DASARAHALLI, 
+                                        BANGALORE - 560057</li>
                   <li className="call">
                     <a href="tel:9224-386238">9224-386238</a>
                   </li>
                   <li>
-                    <a href="mailto:info@ccpvtltd.in">info@ccpvtltd.in</a>
+                    <a href="mailto:info@sslegacy.in">info@sslegacy.in</a>
                   </li>
                 </ul>
               </div>
@@ -100,7 +99,7 @@ export default function Footer(props) {
         <div className="container">
           <div className="row">
             <div className="col-lg-12 copyright-txt">
-              <p>© 2022 CC. All rights reserved.</p>
+              <p>© 2022 SS Legacy. All rights reserved.</p>
             </div>
           </div>
         </div>

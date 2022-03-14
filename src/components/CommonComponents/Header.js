@@ -46,7 +46,7 @@ export default function Header(props) {
             <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
               <div className="top-link">
                 <p>
-                  <a href="tel:9224368138">
+                  <a href="tel:8114369139">
                     <Image src="/images/call.svg" alt="" width="17" height="17"/>
                     Call Us : 8114-369139
                   </a>
@@ -69,7 +69,7 @@ export default function Header(props) {
                 </a>
               </div>
               <div className="mail">
-                <a href="mailto:info@ccpvtltd.in">Email : info@ccpvtltd.in</a>
+                <a href="mailto:info@sslegacy.in">Email : info@sslegacy.in</a>
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default function Header(props) {
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-dark">
             <Link className="navbar-brand" href="/">
-              <Image src="/images/logo.jpg" alt="Funtravelz" width="147.5" height="41.5"/>
+              <Image src="/images/logo.svg" alt="Funtravelz" width="147.5" height="41.5"/>
             </Link>
             <button
               className="navbar-toggler"

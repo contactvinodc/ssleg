@@ -8,15 +8,10 @@ export default function Skills(props) {
           <div className="col-lg-7">
             <div className="skill-txt">
               <div className="about-head">
-                <h1>OUR SKILLS</h1>
                 <h2 style={{textTransform: 'uppercase'}}>
-                  The efficiency of our company
+                STRENGTH OF OUR COMPANY
                 </h2>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
               <div
                 className="skill-progress"
                 data-aos="fade-up"

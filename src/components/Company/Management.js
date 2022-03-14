@@ -6,7 +6,7 @@ export default function Management(props) {
       <div className="container">
         <div className="row">
           <div className="col-lg-12" data-aos="fade-up" data-aos-duration="1000">
-            <h4>CC</h4>
+            <h4>SS Legacy</h4>
             <h5>MANAGEMENT</h5>
             <p>
               We have well qualified group of technocrats with 150 years

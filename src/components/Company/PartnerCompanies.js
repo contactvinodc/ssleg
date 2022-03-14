@@ -15,49 +15,15 @@ export default function PartnerCompanies(props) {
               </div>
               <div className="item">
                 <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
+                  <Image src="/images/partner-2.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
               <div className="item">
                 <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
+                  <Image src="/images/partner-3.jpg" alt="" width="217" height="70"/>
                 </div>
               </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
-              <div className="item">
-                <div className="partner-sec">
-                  <Image src="/images/partner-1.jpg" alt="" width="217" height="70"/>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
